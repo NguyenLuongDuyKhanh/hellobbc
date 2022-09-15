@@ -2,7 +2,6 @@ basic.forever(function on_forever() {
     led.plot(0, 0)
     
 })
-basic.showString("Hello!")
-basic.forever(function on_forever2() {
-    
+input.onButtonPressed(Button.A, function on_button_pressed_a() {
+    basic.showArrow(ArrowNames.North)
 })
